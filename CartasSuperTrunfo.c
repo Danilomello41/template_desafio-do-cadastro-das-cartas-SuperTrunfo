@@ -8,8 +8,8 @@
     char c2 [50];
     char cod1 [50] = "A01";
     char cod2 [50] = "B02";
-    unsigned p1;
-    unsigned p2;
+    unsigned long int p1;
+    unsigned long int p2;
     float a1;
     float a2;
     float PIB1;
@@ -31,7 +31,7 @@
         scanf("%s", c1);
 
         printf("Digite a População da Cidade: \n");
-        scanf("%d", &p1);
+        scanf("%lu", &p1);
 
         printf("Digite a Area em km² da Cidade: \n");
         scanf("%f", &a1);
@@ -55,7 +55,7 @@
         scanf("%s", c2);
 
         printf("Digite a População da Cidade: \n");
-        scanf("%d", &p2);
+        scanf("%lu", &p2);
 
         printf("Digite a Area em km² da Cidade: \n");
         scanf("%f" , &a2);
@@ -81,7 +81,7 @@
         printf("Codigo: %s \n", cod1);
         printf("Estado: %s \n", e1);
         printf("Cidade: %s \n", c1);
-        printf("População: %d \n", p1);
+        printf("População: %lu \n", p1);
         printf("Area: %.3f km² \n", a1);
         printf("PIB: %.2f  \n", PIB1);
         printf("Pontos Turisticos: %d \n", pt1);
@@ -92,7 +92,7 @@
         printf("Codigo: %s \n", cod2);
         printf("Estado: %s \n", e2);
         printf("Cidade: %s \n", c2);
-        printf("População: %d \n", p2);
+        printf("População: %lu \n", p2);
         printf("Area: %.3f km² \n", a2);
         printf("PIB: %.2f  \n", PIB2);
         printf("Pontos Turisticos: %d \n", pt2);
