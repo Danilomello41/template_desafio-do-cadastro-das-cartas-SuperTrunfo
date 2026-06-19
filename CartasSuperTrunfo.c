@@ -109,11 +109,28 @@
         printf("Densidade Populacional: Carta 1 venceu (%d)  \n", dp1 < dp2);
         printf("PIB per capita: Carta 1 venceu (%d)  \n", ppc1 > ppc2);
         printf("Super poder: Carta 1 venceu (%d)  \n", sp1 > sp2);
+        printf("----------------------------------------------\n\n");
 
+        printf("Atributo: PIB \n");
+        printf("Carta 1: %s: %.2f \n", e1,PIB1);
+        printf("Carta 2: %s: %.2f \n", e2,PIB2);
+        
+        if(PIB1 > PIB2){
+            printf("Resultado: Carta 1 - %s (%s) Venceu!!", e1,c2);
+        } else{
+            printf("Resultado: Carta 2 - %s (%s) Venceu!!", e2, c2);
+
+
+        }
 
 
 
     }
+
+
+
+
+    
 
 
     
